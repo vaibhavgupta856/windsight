@@ -219,7 +219,6 @@ flowchart LR
 
 ## Use of AI tools
 
-This project was built with help from an AI coding assistant (Claude Code by Anthropic). I used it for scaffolding,
-writing code and tests, and drafting documentation. I directed the domain decisions: the decision-time semantics,
-the no-look-ahead calibration, excluding back-casts, and the choice of metrics. I reviewed the code and checked the
-outputs against the raw Elexon data.
+As the brief permits, AI coding tools were used during development to help write code, tests and documentation.
+The results were checked against the raw Elexon data, and the test suite covers the core rules: forecast selection
+at decision time, exclusion of back-casts, UK clock changes, and the no-look-ahead calibration.
